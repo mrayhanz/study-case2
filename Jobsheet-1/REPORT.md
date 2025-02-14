@@ -7,7 +7,9 @@
 
 # Labs #1 Programming Fundamentals Review
 
-## 2.2.1. Praktikum Pemilihan
+## 2.1 Pemilihan
+
+### 2.2.1 Praktikum Pemilihan
 
 Solusi dari implementasi Pemilihan1.java, dan menampilkan Screenshot hasil.
 
@@ -19,7 +21,9 @@ Solusi dari implementasi Pemilihan1.java, dan menampilkan Screenshot hasil.
 3. Penjumlahan Dan Konvert Ke Nilai Huruf
 4. Menampilkan Status Lulus
 
-## 2.3.1. Praktikum Perulangan
+## 2.2 Perulangan
+
+### 2.3.1 Praktikum Perulangan
 
 Solusi dari implementasi Perulangan.java, dan menampilkan Screenshot hasil.
 
