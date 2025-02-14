@@ -3,7 +3,7 @@
 | NIM |  244107020027 |
 | Nama |  Muhammad Rayhan Zamzami |
 | Kelas | TI - 1H |
-| Repository | [link] (https://github.com/jti-polinema/-01-contoh-laporan-react) |
+| Repository | [link] (https://github.com/mrayhanz/Algorithm-Data-Structure) |
 
 # Labs #1 Programming Fundamentals Review
 
