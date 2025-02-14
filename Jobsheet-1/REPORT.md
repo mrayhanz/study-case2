@@ -9,15 +9,20 @@
 
 ## 2.2.1. Praktikum Pemilihan
 
-The solution is implemented in Pemilihan1.java, and below is screenshot of the result.
+Solusi dari implementasi Pemilihan1.java, dan menampilkan Screenshot hasil.
 
 ![Screenshot](img/Pemilihan.png)
 
-**Brief explanaton:** There are 4 main step: 
-1. Input all grades
-2. Validate the input
-3. Calculate and convert the final grade
-4. Decide the final status
+**Brief explanaton:** Ada 4 langkah utama:
+1. Menginput Semua Nilai
+2. Memvalidasi Semua Nilai yang sudah di inpu
+3. Penjumlahan Dan Konvert Ke Nilai Huruf
+4. Menampilkan Status Lulus
 
 ## 2.3.1. Praktikum Perulangan
-Continue to report the result....
+
+Solusi dari implementasi Perulangan.java, dan menampilkan Screenshot hasil.
+
+![Screenshot](img/Perulangan.png)
+
+**Brief explanaton:** Ada 4 langkah utama:
