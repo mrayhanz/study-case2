@@ -7,9 +7,7 @@
 
 # Labs #1 Programming Fundamentals Review
 
-## 2.1 Pemilihan
-
-### 2.2.1 Praktikum Pemilihan
+## 1 Pemilihan
 
 Solusi dari implementasi Pemilihan1.java, dan menampilkan Screenshot hasil.
 
@@ -17,16 +15,18 @@ Solusi dari implementasi Pemilihan1.java, dan menampilkan Screenshot hasil.
 
 **Brief explanaton:** Ada 4 langkah utama:
 1. Menginput Semua Nilai
-2. Memvalidasi Semua Nilai yang sudah di inpu
+2. Memvalidasi Semua Nilai yang sudah di input
 3. Penjumlahan Dan Konvert Ke Nilai Huruf
 4. Menampilkan Status Lulus
 
-## 2.2 Perulangan
-
-### 2.3.1 Praktikum Perulangan
+## 2 Perulangan
 
 Solusi dari implementasi Perulangan.java, dan menampilkan Screenshot hasil.
 
 ![Screenshot](img/Perulangan.png)
 
 **Brief explanaton:** Ada 4 langkah utama:
+1. Menginput NIM
+2. Mengambil 2 digit terakhir dari nim 
+3. Buat kondisi ketika bilangan tersebut ganjil dan kondisi tertentu
+4. Menampilkan Output
