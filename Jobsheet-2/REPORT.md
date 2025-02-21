@@ -19,8 +19,8 @@
 1. Karakteristik class dan object :
    -memiliki method
    -memiliki property
-2. Terdapat 4 Atribut : nama,nim,ipk,kelas
-3. Terdapat 4 Method : tampilkanInformasi,ubahKelas,updateIPK,nilaiKerja
+2. Terdapat 4 Atribut : ```nama``` ```nim``` ```ipk``` ```kelas```
+3. Terdapat 4 Method : ```tampilkanInformasi()``` ```ubahKelas()``` ```updateIPK()``` ```nilaiKerja()```
 4. ```java
    void updateIPK(double ipkBaru){
     if (ipkBaru > 4.0 || ipkBaru < 0) {
@@ -64,3 +64,4 @@
       kelas = kls;
    }
    ```
+2.
