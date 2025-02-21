@@ -5,7 +5,7 @@ public class Mahasiswa17 {
     double ipk;
 
     Mahasiswa17(){
-        
+
     }
 
     Mahasiswa17(String nm, String nim, double ipk, String kls) {
