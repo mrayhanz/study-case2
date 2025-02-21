@@ -21,7 +21,7 @@
    -memiliki property
 2. Terdapat 4 Atribut : nama,nim,ipk,kelas
 3. Terdapat 4 Method : tampilkanInformasi,ubahKelas,updateIPK,nilaiKerja
-4. ```
+4. ```java
        void updateIPK(double ipkBaru){
         if (ipkBaru > 4.0 || ipkBaru < 0) {
             System.out.println("IPK harus antara 0-4.0");
