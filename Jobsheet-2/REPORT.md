@@ -40,5 +40,7 @@
 
 
 ### 2.2.3 Pertanyaan
-1. nama objek (mhs1) ```java
-   Mahasiswa17 mhs1 = new Mahasiswa17(); ```
+1. nama objek (mhs1)
+   ```java
+   Mahasiswa17 mhs1 = new Mahasiswa17();
+   ```
