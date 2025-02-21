@@ -30,7 +30,7 @@
     }
    }
    ```
-5. Cara kerja method nilaiKinerja() adalah membandingkan value dari ipk yang di inputkan oleh user dan return String yang telah di tentukan.
+5. Cara kerja method ```nilaiKinerja()``` adalah membandingkan value dari ```ipk``` yang di inputkan oleh user dan return String yang telah di tentukan.
 
 ## Percobaan 2
 
@@ -40,7 +40,7 @@
 
 
 ### 2.2.3 Pertanyaan
-1. nama objek (mhs1)
+1. nama objek (```mhs1```)
 
    ```java
    Mahasiswa17 mhs1 = new Mahasiswa17();
