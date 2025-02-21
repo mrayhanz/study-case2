@@ -56,4 +56,11 @@
 
 
 ### 2.3.3 Pertanyaan
-1.
+1. ```java
+   Mahasiswa17(String nm, String nim, double ipk, String kls) {
+      nama = nm;
+      this.nim = nim;
+      this.ipk = ipk;
+      kelas = kls;
+   }
+   ```
