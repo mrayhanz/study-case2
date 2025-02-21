@@ -30,4 +30,14 @@
     }
    }
    ```
-5.
+5. Cara kerja method nilaiKinerja() adalah membandingkan value dari ipk yang di inputkan oleh user dan return String yang telah di tentukan.
+
+## Percobaan 2
+
+### 2.2.2 Verifikasi Hasil Percobaan
+
+ ![Screenshot](img/MahasiswaMain.png)
+
+
+### 2.2.3 Pertanyaan
+1.
