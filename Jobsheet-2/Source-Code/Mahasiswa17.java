@@ -16,7 +16,11 @@ public class Mahasiswa17 {
     }
 
     void updateIPK(double ipkBaru){
-        ipk = ipkBaru;
+        if (ipkBaru > 4.0 || ipkBaru < 0) {
+            System.out.println("IPK harus antara 0-4.0");
+        }else{
+            ipk = ipkBaru;
+        }
     }
     
     String nilaiKinerja(){
