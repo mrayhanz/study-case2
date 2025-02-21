@@ -52,7 +52,7 @@
 
 ### 2.3.2 Verifikasi Hasil Percobaan
 
-![Screenshot](img/)
+![Screenshot](img/Percobaan3.png)
 
 
 ### 2.3.3 Pertanyaan
