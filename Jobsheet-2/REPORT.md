@@ -10,12 +10,12 @@
 
 ## Percobaan 1
 
-### 2.2.2 Verifikasi Hasil Percobaan 
+### 2.1.2 Verifikasi Hasil Percobaan 
 
  ![Screenshot](img/Mahasiswa.png)
 
 
-### 2.2.3 Pertanyaan
+### 2.1.3 Pertanyaan
 1. Karakteristik class dan object :
    -memiliki method
    -memiliki property
@@ -41,6 +41,19 @@
 
 ### 2.2.3 Pertanyaan
 1. nama objek (mhs1)
+
    ```java
    Mahasiswa17 mhs1 = new Mahasiswa17();
    ```
+2. menggunakan (.) setelah objek
+3. karena telah di lakukan update ipk dan update kelas
+
+## Percobaan 3
+
+### 2.3.2 Verifikasi Hasil Percobaan
+
+![Screenshot](img/)
+
+
+### 2.3.3 Pertanyaan
+1.
