@@ -64,4 +64,11 @@
       kelas = kls;
    }
    ```
-2.
+2. Melakukan intansiasi dengan konstruktor dan mendeklarasikan atribut
+3. Terjadi error,karena jika konstruktor default di hapus maka konstruktor berparameter otomatis menjadi konstruktor default,sehingga saat instansiasi objek harus mengisi parameter
+4. Tidak, karena method di class ```Mahasiswa``` dapat diakses secara acak atau berurutan,karena tidak membutuhkan data dari method lain untuk berjalan
+5.  ```java
+    Mahasiswa17 mhs3 = new Mahasiswa17("Muhammad Rayhan" ,"244107020027",3.80,"TI 1H");
+    mhs3.updateIPK(4.00);
+    mhs3.tampilkanInformasi();
+   ```
