@@ -73,3 +73,6 @@
     mhs3.updateIPK(4.00);
     mhs3.tampilkanInformasi();
    ```
+## Tugas 1
+
+## Tugas 2
