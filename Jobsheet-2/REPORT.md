@@ -73,3 +73,23 @@
     mhs3.updateIPK(4.00);
     mhs3.tampilkanInformasi();
    ```
+## Latihan Praktikum
+
+### 1 . Class MataKuliah
+
+![Screenshot](img/Tugas1.png)
+
+Penjelasan Kode :
+
+1.Mendeklerasikan Variabel untuk menyimpan data, ```MataKuliah17``` ber atribut ```KodeMK``` ```nama``` yang bertipe data ```String``` dan ```sks``` ```jumlahJam``` berupa tipe data ```int```
+2.Menginisialisasi objek, ```mk1``` dibuat menggunakan konstruktor default sedangkan ```mk2``` menggunakan konstruktor berparameter
+3.Menampilkan output menggunakan metode ```tampilInformasi()```
+4.Mengubah data mata kuliah menggunakan metode ```ubahSKS(int sksBaru)``` ```tambahJam(int jam)``` ```kurangiJam(int jam)```,metode tersebut memungkinkan untuk mengubah data mata kuliah
+5.Menampilkan output kembali karena ada data yang di ubah
+
+### 2. Class Dosen
+
+![Screenshot](img/Tugas2.png)
+
+Penjelasan Kode :
+
