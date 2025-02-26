@@ -10,11 +10,11 @@ public class MataKuliah17 {
     MataKuliah17(String kodemk, String nm, int sks, int jam){
         KodeMK = kodemk;
         nama = nm;
-        sks = sks;
+        this.sks = sks;
         jumlahJam = jam;
     }
 
-    void tammpilInformasi(){
+    void tampilInformasi(){
         System.out.println("Kode MK: " + KodeMK);
         System.out.println("Nama MK: " + nama);
         System.out.println("SKS: " + sks);
