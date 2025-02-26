@@ -77,7 +77,7 @@
 
 ### 1 . Class MataKuliah
 
-![Screenshot](img/Tugas1.png)
+![Screenshot](img/Tugas1fix.png)
 
 Penjelasan Kode :
 
