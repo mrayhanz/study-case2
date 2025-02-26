@@ -81,10 +81,20 @@
 
 Penjelasan Kode :
 
-1.Mendeklerasikan Variabel untuk menyimpan data, ```MataKuliah17``` ber atribut ```KodeMK``` ```nama``` yang bertipe data ```String``` dan ```sks``` ```jumlahJam``` berupa tipe data ```int```.
+1.Mendeklerasikan Variabel untuk menyimpan data, ```MataKuliah17``` ber atribut ```KodeMK``` ```nama``` yang bertipe data ```String``` dan ```sks``` ```jumlahJam``` berupa tipe data ```int```
+
 2.Menginisialisasi objek, ```mk1``` dibuat menggunakan konstruktor default sedangkan ```mk2``` menggunakan konstruktor berparameter
+
 3.Menampilkan output menggunakan metode ```tampilInformasi()```
-4.Mengubah data mata kuliah menggunakan metode ```ubahSKS(int sksBaru)``` ```tambahJam(int jam)``` ```kurangiJam(int jam)```,metode tersebut memungkinkan untuk mengubah data mata kuliah
+
+4.Mengubah data mata kuliah menggunakan metode :
+ - ```ubahSKS(boolean sksBaru)```
+   Metode ini memungkinkan untuk mengubah ```sks``` pada data matakuliah dengan data yang valid
+ - ```tambahJam (int jam)```
+   Metode ini berfungsi untuk menambah ```jumlahJam``` mata kuliah
+ - ```kurangiJam (String jam)```
+   Metode ini memungkinkan untuk mengubah ```jumlahJam``` pada data Mata Kuliah
+
 5.Menampilkan output kembali karena ada data yang di ubah
 
 ### 2. Class Dosen
@@ -93,3 +103,18 @@ Penjelasan Kode :
 
 Penjelasan Kode :
 
+1.Mendeklerasikan Variabel untuk menyimpan data, ```Dosen17``` ber atribut ```idDosen``` ```nama``` ```bidangKeahlian``` yang bertipe data ```String```, ```statusAktif``` berupa tipe data ```boolean```, dan ```tahunBergabung``` berupa tipe data ```int```
+
+2.Menginisialisasi objek, ```dosen1``` dibuat menggunakan konstruktor default sedangkan ```dosen2``` menggunakan konstruktor berparameter
+
+3.Menampilkan output menggunakan metode ```tampilInformasi()```
+
+4.Mengubah data dosen menggunakan metode :
+ - ```setStatusAktif(boolean status)```
+   Metode ini berfungsi untuk mengubah ```statusAktif``` pada data dosen
+ - ```hitungMasaKerja (int thnSkrg)```
+   Metode ini berfungsi untuk menghitung masa kerja dosen dari tahun mengajar hingga tahun sekarang
+ - ```ubahKeahlian (String bidang)```
+   Metode ini berfungsi untuk mengubah ```bidangKeahlian``` pada data dosen
+
+5.Menampilkan output kembali karena ada data yang di ubah
