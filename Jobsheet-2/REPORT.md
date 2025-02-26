@@ -81,7 +81,7 @@
 
 Penjelasan Kode :
 
-1.Mendeklerasikan Variabel untuk menyimpan data, ```MataKuliah17``` ber atribut ```KodeMK``` ```nama``` yang bertipe data ```String``` dan ```sks``` ```jumlahJam``` berupa tipe data ```int```
+1.Mendeklerasikan Variabel untuk menyimpan data, ```MataKuliah17``` ber atribut ```KodeMK``` ```nama``` yang bertipe data ```String``` dan ```sks``` ```jumlahJam``` berupa tipe data ```int```.
 2.Menginisialisasi objek, ```mk1``` dibuat menggunakan konstruktor default sedangkan ```mk2``` menggunakan konstruktor berparameter
 3.Menampilkan output menggunakan metode ```tampilInformasi()```
 4.Mengubah data mata kuliah menggunakan metode ```ubahSKS(int sksBaru)``` ```tambahJam(int jam)``` ```kurangiJam(int jam)```,metode tersebut memungkinkan untuk mengubah data mata kuliah
