@@ -22,3 +22,39 @@
 4. Kode tersebut mengisi nilai pada seluruh atribut yang ada di dalam object array yang berindex 0.
 5. Dipisahkan Karena class ```MahasiswaDemo17```berisi method main dan pada ```java``` method main harus dalam sebuah public class dengan memiliki nama yang sama dengan nama file.
 
+## Percobaan 2
+
+### 3.3.2 Verifikasi Hasil Percobaan 
+
+ ![Screenshot](img/Percobaan2.png)
+
+
+### 3.3.3 Pertanyaan
+1. 
+``` java
+    void cetakinfo(){
+        System.out.println("NIM     : " + nim);
+        System.out.println("Nama    : " + nama);
+        System.out.println("Kelas   : " + kelas);
+        System.out.println("IPK     : " + ipk);
+    }
+```
+``` java
+        for (int i = 0; i < 3; i++) {
+            System.out.println("Data Mahasiswa ke-" + (i+1));
+            arrayOfMahasiswa[i].cetakinfo();
+            System.out.println("------------------------------------------");
+        }
+```
+2. Karena objek pada index 0 belum di instansiasi.
+
+
+## Percobaan 3
+
+### 3.4.2 Verifikasi Hasil Percobaan 
+
+ ![Screenshot](img/Percobaan3.png)
+
+
+### 3.4.3 Pertanyaan
+1.
