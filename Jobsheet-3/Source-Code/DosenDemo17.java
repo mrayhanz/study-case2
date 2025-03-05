@@ -16,10 +16,20 @@ public class DosenDemo17 {
             System.out.println("----------------------------");
         }
 
-        for (Dosen17 dosen : arrayOfDosen){
-            System.out.println("Data Dosen Ke-" + (Arrays.asList(arrayOfDosen).indexOf(dosen)+1));
-            dosen.cetakinfo();
-            System.out.println("----------------------------");
-        }
+        // for (Dosen17 dosen : arrayOfDosen){
+        //     System.out.println("Data Dosen Ke-" + (Arrays.asList(arrayOfDosen).indexOf(dosen)+1));
+        //     dosen.cetakinfo();
+        //     System.out.println("----------------------------");
+        // }
+
+        DataDosen17 dosen = new DataDosen17(arrayOfDosen);
+        dosen.dataSemuaDosen(arrayOfDosen);
+        System.out.println();
+        dosen.jumlahDosenPerJenisKelamin(arrayOfDosen);
+        System.out.println();
+        dosen.rerataUsiaDosenPerJenisKelamin(arrayOfDosen);
+        System.out.println();
+        dosen.infoDosenPalingTua(arrayOfDosen);
+        dosen.infoDosenPalingMuda(arrayOfDosen);
     }
 }

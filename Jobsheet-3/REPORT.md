@@ -155,3 +155,5 @@
 ## Tugas 2
 
  ![Screenshot](img/Tugas2.png)
+
+ ### Penjelasan Singkat
