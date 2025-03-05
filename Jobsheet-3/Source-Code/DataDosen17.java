@@ -29,8 +29,16 @@ public class DataDosen17 {
                 this.dosenWanita++;
             }
         }
-        System.out.println("Jumlah Dosen Pria   : " + dosenPria);
-        System.out.println("Jumlah Dosen Wanita : " + dosenWanita);
+        if (dosenPria == 0) {
+            System.out.println("Jumlah Dosen Pria : 0");
+        }else{
+            System.out.println("Jumlah Dosen Pria   : " + dosenPria);
+        }
+        if (dosenWanita == 0) {
+            System.out.println("Jumlah Dosen Wanita : 0");
+        }else{
+            System.out.println("Jumlah Dosen Wanita : " + dosenWanita);
+        }
     }
 
     void rerataUsiaDosenPerJenisKelamin(Dosen17[] arrayOfDosen){
@@ -49,8 +57,17 @@ public class DataDosen17 {
         }
         double rerataPria = (double)totalPria/jumlahPria;
         double rerataWanita = (double)totalWanita/jumlahWanita;
-        System.out.println("Rerata Usia Dosen Pria   : " + rerataPria);
-        System.out.println("Rerata Usia Dosen Wanita : " + rerataWanita);
+        if (rerataPria == 0) {
+            System.out.println("Rerata Usia Dosen Pria   : 0");
+        }else{
+            System.out.println("Rerata Usia Dosen Pria   : " + rerataPria);
+        }
+        if (rerataWanita == 0) {
+            System.out.println("Rerata Usia Dosen Wanita   : 0");
+        }else{
+            System.out.println("Rerata Usia Dosen Wanita : " + rerataWanita);
+
+        }
     }
 
     void infoDosenPalingTua(Dosen17[] arrayOfDosen) {
