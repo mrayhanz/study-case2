@@ -57,16 +57,15 @@ public class DataDosen17 {
         }
         double rerataPria = (double)totalPria/jumlahPria;
         double rerataWanita = (double)totalWanita/jumlahWanita;
-        if (rerataPria == 0) {
+        if (jumlahPria == 0) {
             System.out.println("Rerata Usia Dosen Pria   : 0");
         }else{
             System.out.println("Rerata Usia Dosen Pria   : " + rerataPria);
         }
-        if (rerataWanita == 0) {
-            System.out.println("Rerata Usia Dosen Wanita   : 0");
+        if (jumlahWanita == 0) {
+            System.out.println("Rerata Usia Dosen Wanita : 0");
         }else{
             System.out.println("Rerata Usia Dosen Wanita : " + rerataWanita);
-
         }
     }
 
