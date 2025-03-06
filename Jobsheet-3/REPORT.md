@@ -157,3 +157,37 @@
  ![Screenshot](img/Tugas2.png)
 
  ### Penjelasan Singkat
+
+ **1. Deklarasi Variabel dalam DataDosen17**
+ Kelas ```DataDosen17``` digunakan untuk mengelola data dosen yang telah dimasukkan. Beberapa variabel yang digunakan adalah:
+- ```dosen (Dosen17[])``` → Menyimpan array dari objek ```Dosen17```, yang berisi data dosen yang diinputkan.
+- ```gender (String[])``` → Menyimpan informasi jenis kelamin dosen dalam bentuk string ("Pria" atau "Wanita").
+- ```dosenPria (int)``` → Menghitung jumlah dosen pria.
+- ```dosenWanita (int)``` → Menghitung jumlah dosen wanita.
+
+**2. Pembuatan Konstruktor**
+Konstruktor ```DataDosen17(Dosen17[] dosen)``` digunakan untuk menginisialisasi array ```dosen``` berdasarkan data yang diberikan saat pembuatan objek ```DataDosen17```. Konstruktor ini juga mengalokasikan array ```gender``` sesuai dengan jumlah dosen yang diberikan.
+
+**3. Menambahkan Data Dosen Melalui ```tambahData()```**
+Di dalam kelas ```DosenDemo17```, program meminta pengguna untuk memasukkan jumlah dosen yang akan dimasukkan. Untuk setiap dosen, program akan meminta data berikut:
+- Kode Dosen
+- Nama Dosen
+- Jenis Kelamin (hanya menerima "Pria" atau "Wanita")
+- Usia
+Data yang telah dimasukkan akan disimpan ke dalam array objek ```Dosen17```.
+
+**4. Mencetak Informasi Dosen Melalui ```dataSemuaDosen()```**
+Method ini mencetak semua data dosen yang telah dimasukkan, termasuk kode, nama, jenis kelamin, dan usia.
+Untuk nilai ```jenisKelamin``` yang berupa boolean (```true``` = Pria, ```false``` = Wanita), program mengonversinya menjadi string sebelum ditampilkan.
+
+**5. Menghitung Jumlah Dosen Per Jenis Kelamin melalui ```jumlahDosenPerJenisKelamin()```**
+Method ini menghitung jumlah dosen pria dan wanita berdasarkan data yang telah diinputkan.
+
+**6.  Menghitung Rata-rata Usia Dosen Berdasarkan Jenis Kelamin melalui ```rerataUsiaDosenPerJenisKelamin()```**
+Program menghitung total usia dari semua dosen pria dan wanita, lalu membaginya dengan jumlah masing-masing untuk mendapatkan rata-rata usia dosen pria dan wanita.
+
+**7. Menampilkan Data Dosen Tertua melalui ```infoDosenPalingTua()```**
+Method ini mencari dosen dengan usia tertua dari daftar yang tersedia. Setelah ditemukan, program akan mencetak semua dosen yang memiliki usia tersebut.
+
+**8. Menampilkan Data Dosen Termuda melalui ```infoDosenPalingMuda()```**
+Sama seperti ```infoDosenPalingTua()```, method ini mencari dosen dengan usia termuda dan mencetak semua dosen dengan usia tersebut.
