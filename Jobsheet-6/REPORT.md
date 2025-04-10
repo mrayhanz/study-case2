@@ -135,8 +135,11 @@ Singkatnya, proses ini menentukan elemen terkecil dalam setiap iterasi sebelum d
 ## Latihan Praktikum
 
  ![Screenshot](img/Tugas-1.png)
+ 
  ![Screenshot](img/Tugas-2.png)
+ 
  ![Screenshot](img/Tugas-3.png)
+ 
  ![Screenshot](img/Tugas-4.png)
 
 ### Penjelasan Singkat
