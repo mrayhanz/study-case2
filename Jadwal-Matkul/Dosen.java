@@ -11,6 +11,8 @@ public class Dosen{
     }
 
     void tampilDataDosen(){
-        
+        System.out.println("Kode MK: " + kodeMK);
+        System.out.println("Nama Mata Kuliah: " + namaMK);
+        System.out.println("SKS: " + sks);
     }
 }
