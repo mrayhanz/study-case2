@@ -16,7 +16,7 @@ public class Jadwal {
         return matkul.sks * 50;
     }
 
-    void tampilData(){
+    void tampilDataJadwal(){
         
     }
 }

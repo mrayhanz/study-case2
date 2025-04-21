@@ -10,6 +10,14 @@ public class JadwalMatkul {
             System.out.println("Array jadwal sudah penuh!");
         }
     }
+
+    void tampilkanJadwal() {
+        for (int i = 0; i < idx; i++) {
+            if (jadwal[i] != null) {
+                jadwal[i].tampilDataJadwal();
+            }
+        }
+    }
     void sortingbyday() {
         Jadwal temp;
         for (int i = 0; i < jadwal.length - 1; i++) {

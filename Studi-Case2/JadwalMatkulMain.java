@@ -51,23 +51,25 @@ public class JadwalMatkulMain {
 
             switch (menu) {
                 case 1:
-
+                    System.out.println("=== Data Dosen ===");
                     break;
 
                 case 2:
-
+                    System.out.println("=== Data Mata Kuliah ===");
                     break;
 
                 case 3:
-
+                    System.out.println("=== Data Jadwal ===");
                     break;
 
                 case 4:
-
+                    System.out.println("=== Urutkan Jadwal Berdasarkan Hari ===");
+                    jadwal.sortingbyday();
+                    jadwal.tampilkanJadwal();
                     break;
 
                 case 5:
-
+                    System.out.println("=== Cari Jadwal Berdasarkan Nama Dosen ===");
                     break;
 
                 case 6:
