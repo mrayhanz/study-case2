@@ -14,16 +14,5 @@ public class JadwalMatkul {
         }
     }
 
-    void searchDosenbyname(String namaDosen){
-        boolean ditemukan = false;
-        for (int i = 0; i < jadwal.length; i++) {
-            if (jadwal[i] != null && jadwal[i].dosen.namaDosen.equalsIgnoreCase(namaDosen)) {
-                jadwal[i].tampilData();
-                ditemukan = true;
-            }
-        }
-        if (!ditemukan) {
-            System.out.println("Jadwal tidak ditemukan untuk dosen " + namaDosen);
-        }
-    }
+
 }
