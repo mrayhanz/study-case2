@@ -1,17 +1,29 @@
 public class JadwalMatkul {
     Jadwal[] jadwal = new Jadwal[7];
-    int idx;
 
     void sortingbyday() {
-        Jadwal temp = new Jadwal();
+        Jadwal temp;
         for (int i = 0; i < jadwal.length - 1; i++) {
             for (int j = i + 1; j < jadwal.length; j++) {
-                if (jadwal[i].hari.compareTo(jadwal[j].hari) > 0) {
+                if (jadwal[i] != null && jadwal[j] != null && jadwal[i].hari.compareTo(jadwal[j].hari) > 0) {
                     temp = jadwal[i];
                     jadwal[i] = jadwal[j];
                     jadwal[j] = temp;
                 }
             }
+        }
+    }
+
+    void searchDosenbyname(String namaDosen){
+        boolean ditemukan = false;
+        for (int i = 0; i < jadwal.length; i++) {
+            if (jadwal[i] != null && jadwal[i].dosen.namaDosen.equalsIgnoreCase(namaDosen)) {
+                jadwal[i].tampilData();
+                ditemukan = true;
+            }
+        }
+        if (!ditemukan) {
+            System.out.println("Jadwal tidak ditemukan untuk dosen " + namaDosen);
         }
     }
 }
