@@ -5,7 +5,7 @@ public class JadwalMatkulMain {
         Scanner sc = new Scanner(System.in);
         int menu;
 
-        JadwalMatkul jadwalMatkul = new JadwalMatkul();
+        JadwalMatkul jadwal = new JadwalMatkul();
 
         do {
             System.out.println("=== MENU ===");

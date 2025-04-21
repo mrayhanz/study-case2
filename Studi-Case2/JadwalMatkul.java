@@ -1,22 +1,17 @@
 public class JadwalMatkul {
-    Dosen dosen = new Dosen();
-    Matakuliah matkul = new Matakuliah();
-    String hari;
+    Jadwal[] jadwal = new Jadwal[7];
+    int idx;
 
-
-    JadwalMatkul(){}
-
-    JadwalMatkul(Dosen dosen, Matakuliah matkul, String hari) {
-        this.dosen = dosen;
-        this.matkul = matkul;
-        this.hari = hari;
-    }
-
-    int hitungMenit(){
-
-    }
-
-    void tampilData(){
-        
+    void sortingbyday() {
+        Jadwal temp = new Jadwal();
+        for (int i = 0; i < jadwal.length - 1; i++) {
+            for (int j = i + 1; j < jadwal.length; j++) {
+                if (jadwal[i].hari.compareTo(jadwal[j].hari) > 0) {
+                    temp = jadwal[i];
+                    jadwal[i] = jadwal[j];
+                    jadwal[j] = temp;
+                }
+            }
+        }
     }
 }
