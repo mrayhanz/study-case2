@@ -51,12 +51,25 @@ public class JadwalMatkulMain {
 
             switch (menu) {
                 case 1:
-                    System.out.println("=== Data Dosen ===");
-                    break;
+                System.out.println("=== Data Dosen ===");
+                Dosen[] daftarDosen = {d1, d2, d3, d4, d5};
+                for (Dosen d : daftarDosen) {
+                    System.out.println("NIDN: " + d.nidn);
+                    System.out.println("Nama: " + d.namaDosen);
+                    System.out.println();
+                }
+                break;
 
-                case 2:
-                    System.out.println("=== Data Mata Kuliah ===");
-                    break;
+            case 2:
+                System.out.println("=== Data Mata Kuliah ===");
+                Matakuliah[] daftarMK = {mk1, mk2, mk3, mk4, mk5, mk6, mk7};
+                for (Matakuliah mk : daftarMK) {
+                    System.out.println("Kode MK: " + mk.kodeMK);
+                    System.out.println("Nama Mata Kuliah: " + mk.namaMK);
+                    System.out.println("SKS: " + mk.sks);
+                    System.out.println();
+                }
+                break;
 
                 case 3:
                     System.out.println("=== Data Jadwal ===");

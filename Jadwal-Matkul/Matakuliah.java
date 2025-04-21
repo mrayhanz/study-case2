@@ -13,6 +13,8 @@ public class Matakuliah {
 
 
     void tampilDataMK(){
-        
+        System.out.println("Kode MK: " + kodeMK);
+        System.out.println("Nama Mata Kuliah: " + namaMK);
+        System.out.println("SKS: " + sks);
     }
 }

@@ -11,6 +11,7 @@ public class Dosen{
     }
 
     void tampilDataDosen(){
-        
+        System.out.println("NIDN: " + nidn);
+        System.out.println("Nama: " + namaDosen); 
     }
 }
