@@ -5,7 +5,36 @@ public class JadwalMatkulMain {
         Scanner sc = new Scanner(System.in);
         int menu;
 
+        Dosen d1 = new Dosen("D001", "Budi Hartono");
+        Dosen d2 = new Dosen("D002", "Rina Marlina");
+        Dosen d3 = new Dosen("D003", "Agus Wijaya");
+        Dosen d4 = new Dosen("D004", "Siti Aminah");
+        Dosen d5 = new Dosen("D005", "Andi Pratama");
+
+        Matakuliah mk1 = new Matakuliah("MK001", "Struktur Data", 3);
+        Matakuliah mk2 = new Matakuliah("MK002", "Pemrograman Java", 3);
+        Matakuliah mk3 = new Matakuliah("MK003", "Basis Data", 3);
+        Matakuliah mk4 = new Matakuliah("MK004", "Algoritma dan Pemrograman", 2);
+        Matakuliah mk5 = new Matakuliah("MK005", "Matematika Diskrit", 2);
+        Matakuliah mk6 = new Matakuliah("MK006", "Jaringan Komputer", 3);
+        Matakuliah mk7 = new Matakuliah("MK007", "Pemrograman Web", 3);
+
+        Jadwal j1 = new Jadwal(d1, mk1, "Senin 08:00");
+        Jadwal j2 = new Jadwal(d2, mk2, "Selasa 10:00");
+        Jadwal j3 = new Jadwal(d3, mk3, "Rabu 09:00");
+        Jadwal j4 = new Jadwal(d1, mk4, "Kamis 13:00");
+        Jadwal j5 = new Jadwal(d4, mk5, "Jumat 07:00");
+        Jadwal j6 = new Jadwal(d5, mk6, "Senin 11:00");
+        Jadwal j7 = new Jadwal(d2, mk7, "Rabu 14:00");
+
         JadwalMatkul jadwal = new JadwalMatkul();
+        jadwal.tambahJadwal(j1);
+        jadwal.tambahJadwal(j2);
+        jadwal.tambahJadwal(j3);
+        jadwal.tambahJadwal(j4);
+        jadwal.tambahJadwal(j5);
+        jadwal.tambahJadwal(j6);
+        jadwal.tambahJadwal(j7);
 
         do {
             System.out.println("=== MENU ===");

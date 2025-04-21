@@ -1,6 +1,15 @@
 public class JadwalMatkul {
     Jadwal[] jadwal = new Jadwal[7];
+    int idx;
 
+    void tambahJadwal(Jadwal j) {
+        if (idx < jadwal.length) {
+            jadwal[idx] = j;
+            idx++;
+        } else {
+            System.out.println("Array jadwal sudah penuh!");
+        }
+    }
     void sortingbyday() {
         Jadwal temp;
         for (int i = 0; i < jadwal.length - 1; i++) {
@@ -13,6 +22,4 @@ public class JadwalMatkul {
             }
         }
     }
-
-
 }
