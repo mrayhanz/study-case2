@@ -31,4 +31,16 @@ public class JadwalMatkul {
             }
         }
     }
+    void cariJadwal(String nama) {
+        boolean ditemukan = false;
+        for (int i = 0; i < idx; i++) {
+            if (jadwal[i].dosen.namaDosen.equalsIgnoreCase(nama)) {
+                jadwal[i].tampilDataJadwal();
+                ditemukan = true;
+            }
+        }
+        if (!ditemukan) {
+            System.out.println("Data dosen dengan nama \"" + nama + "\" tidak ditemukan.");
+        }
+    }
 }
