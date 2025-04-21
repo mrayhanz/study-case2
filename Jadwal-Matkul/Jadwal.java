@@ -18,8 +18,8 @@ public class Jadwal {
     }
 
     void tampilDataJadwal(){
-        System.out.println("Dosen       : " + dosen);
-        System.out.println("Mata Kuliah : " + matkul);
+        System.out.println("Dosen       : " + dosen.namaDosen);
+        System.out.println("Mata Kuliah : " + matkul.namaMK);
         System.out.println("SKS         : " + matkul.sks);
         System.out.println("Hari        : " + hari);
         System.out.println("Jam         : " + jam);

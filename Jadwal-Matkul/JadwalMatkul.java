@@ -2,18 +2,29 @@ public class JadwalMatkul {
     Jadwal[] jadwal = new Jadwal[7];
     int idx;
 
-    void sortingbyday() {
-        Jadwal temp;
-        for (int i = 0; i < jadwal.length - 1; i++) {
-            for (int j = i + 1; j < jadwal.length; j++) {
-                if (jadwal[i] != null && jadwal[j] != null && jadwal[i].hari.compareTo(jadwal[j].hari) > 0) {
-                    temp = jadwal[i];
-                    jadwal[i] = jadwal[j];
-                    jadwal[j] = temp;
-                }
+void sortingbyday() {
+    Jadwal temp;
+    for (int i = 0; i < jadwal.length - 1; i++) {
+        for (int j = i + 1; j < jadwal.length; j++) {
+            if (jadwal[i] != null && jadwal[j] != null &&
+                getIndex(jadwal[i].hari) > getIndex(jadwal[j].hari)) {
+                temp = jadwal[i];
+                jadwal[i] = jadwal[j];
+                jadwal[j] = temp;
             }
         }
     }
+}
+
+int getIndex(String hari) {
+    String[] urutanHari = {"Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"};
+    for (int i = 0; i < urutanHari.length; i++) {
+        if (urutanHari[i].equalsIgnoreCase(hari)) {
+            return i;
+        }
+    }
+    return -1; 
+}
 
     void tambahJadwal(Jadwal j) {
         if (idx < jadwal.length) {
