@@ -4,6 +4,9 @@ public class JadwalMatkulMain {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int menu;
+
+        JadwalMatkul jadwalMatkul = new JadwalMatkul();
+
         do {
             System.out.println("=== MENU ===");
             System.out.println("1. Tampilkan Data Dosen");
