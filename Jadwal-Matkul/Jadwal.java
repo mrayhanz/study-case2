@@ -1,7 +1,8 @@
 public class Jadwal {
     Dosen dosen = new Dosen();
     Matakuliah matkul = new Matakuliah();
-    String hari, jam;
+    String hari;
+    String jam;
 
 
     Jadwal(){}
@@ -18,11 +19,12 @@ public class Jadwal {
     }
 
     void tampilDataJadwal(){
-        System.out.println("Dosen       : " + dosen);
-        System.out.println("Mata Kuliah : " + matkul);
-        System.out.println("SKS         : " + matkul.sks);
-        System.out.println("Hari        : " + hari);
-        System.out.println("Jam         : " + jam);
-        System.out.println("Durasi      : " + hitungMenit() + " menit\n");
+       
+            System.out.println("Dosen       : " + dosen.namaDosen);
+            System.out.println("Mata Kuliah : " + matkul.namaMK);
+            System.out.println("SKS         : " + matkul.sks);
+            System.out.println("Hari        : " + hari);
+            System.out.println("Jam         : " + jam);
+            System.out.println("Durasi      : " + hitungMenit() + " menit\n");
+        }
     }
-}
