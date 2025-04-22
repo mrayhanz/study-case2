@@ -48,9 +48,9 @@ public class Jadwal {
     }
 
     int kodeJam(){
-        String[] parts = jam.split(":");
-        int jamInt = Integer.parseInt(parts[0]);
-        int menitInt = Integer.parseInt(parts[1]);
+        String[] time = jam.split(":");
+        int jamInt = Integer.parseInt(time[0]);
+        int menitInt = Integer.parseInt(time[1]);
         return jamInt * 60 + menitInt;
     }
 }
