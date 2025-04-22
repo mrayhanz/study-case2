@@ -2,19 +2,22 @@ public class JadwalMatkul {
     Jadwal[] jadwal = new Jadwal[7];
     int idx;
 
-void sortingbyday() {
-    for (int i = 0; i < jadwal.length - 1; i++) {
-        for (int j = i + 1; j < jadwal.length; j++) {
-            if (jadwal[i] != null && jadwal[j] != null &&
-                jadwal[i].kodeHari() > jadwal[j].kodeHari()) {
-                Jadwal temp = jadwal[i];
-                jadwal[i] = jadwal[j];
-                jadwal[j] = temp;
+    void sortingbyday() {
+        for (int i = 0; i < jadwal.length - 1; i++) {
+            for (int j = i + 1; j < jadwal.length; j++) {
+                if (jadwal[i] != null && jadwal[j] != null) {
+                    if (jadwal[i].kodeHari() > jadwal[j].kodeHari() ||
+                        (jadwal[i].kodeHari() == jadwal[j].kodeHari() &&
+                        jadwal[i].kodeJam() > jadwal[j].kodeJam())) {
+                        Jadwal temp = jadwal[i];
+                        jadwal[i] = jadwal[j];
+                        jadwal[j] = temp;
+                    }
+                }
             }
         }
-    }   
-}
-
+    }
+    
     void tambahJadwal(Jadwal j) {
         if (idx < jadwal.length) {
             jadwal[idx] = j;
